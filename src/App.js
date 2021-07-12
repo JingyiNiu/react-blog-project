@@ -5,6 +5,8 @@ import Home from "./pages/homepage/home.component";
 import Blog from "./pages/blog/blog.component";
 import Footer from "./components/footer/footer.component";
 
+import "./App.css"
+
 function App() {
   return (
     <Router>

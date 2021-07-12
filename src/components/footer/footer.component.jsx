@@ -4,8 +4,8 @@ import "./footer.stylec.css"
 
 const Footer = () => {
     return (
-        <div>
-            footer
+        <div className="footer">
+            Copyright &copy; Zoey
         </div>
     )
 }

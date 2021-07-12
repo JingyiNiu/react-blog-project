@@ -1,0 +1,18 @@
+.navbar{
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: salmon;
+    margin-bottom: 20px;
+}
+
+.nav-item{
+    margin-right: 20px;
+    color: #fff;
+}
+
+.nav-logo{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
