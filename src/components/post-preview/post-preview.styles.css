@@ -1,0 +1,20 @@
+.post-preview {
+  color:#000;
+  padding: 10px 10px 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.post-preview:hover{
+  background-color: #f4f4f4;
+}
+
+.post-preview-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.post-preview-content {
+  padding-left: 5px;
+}
