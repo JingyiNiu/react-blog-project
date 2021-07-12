@@ -11,3 +11,5 @@ https://reactrouter.com/core/guides/quick-start
 
 ## Screenshots
 <img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/home.png" width=600>
+<img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/posts.png" width=600>
+<img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/post.png" width=600>
