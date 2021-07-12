@@ -10,6 +10,6 @@ https://reactrouter.com/core/guides/quick-start
 ```npm i react-router-dom```
 
 ## Screenshots
-<img scr="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/home.png" width=600 alt="home"/>
-<img scr="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/posts.png" width=600 alt="posts"/>
-<img scr="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/post.png" width=600 alt="post"/>
+<img scr="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/home.png"/>
+<img scr="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/posts.png"/>
+<img scr="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/post.png"/>
