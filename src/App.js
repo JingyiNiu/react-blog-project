@@ -1,14 +1,20 @@
+import { BrowserRouter as Router, Switch } from "react-router-dom";
+
 import Nav from "./components/nav/nav.components";
-import BlogContainer from "./components/blog-container/blog-container.component";
-import PostItem from "./components/post-item/post-item.component";
+import Home from "./pages/homepage/home.component";
+import Blog from "./pages/blog/blog.component";
+import Footer from "./components/footer/footer.component";
 
 function App() {
   return (
-    <div className='App'>
+    <Router>
       <Nav />
-      <BlogContainer />
-      <PostItem />
-    </div>
+      <Switch>
+        <Home path='/' exact />
+        <Blog path='/blog' />
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 
