@@ -13,7 +13,7 @@ function App() {
       <Nav />
       <Switch>
         <Home path='/' exact />
-        <Blog path='/blog' />
+        <Blog path='/posts' />
       </Switch>
       <Footer />
     </Router>

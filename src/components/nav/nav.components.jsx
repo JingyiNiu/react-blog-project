@@ -8,7 +8,7 @@ const Nav = () => {
     <div className='navbar'>
       <div className="nav-item nav-logo">React Demo</div>
       <Link to="/" className="nav-item">Home</Link>
-      <Link to="/blog" className="nav-item">Blog</Link>
+      <Link to="/posts" className="nav-item">Blog</Link>
     </div>
   );
 };
