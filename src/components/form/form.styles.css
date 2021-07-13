@@ -1,0 +1,7 @@
+.form {
+  max-width: 700px;
+  margin: 10px auto;
+  border: 1px dashed #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+}
