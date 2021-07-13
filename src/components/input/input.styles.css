@@ -1,4 +1,4 @@
-.input {
+.input-container {
   padding: 4px;
   max-width: 500px;
   margin: 0 auto;
@@ -11,9 +11,28 @@
 }
 
 .input-row {
+  display: flex;
+}
+.input {
   display: block;
   width: 100%;
   padding: 6px 10px;
   border: 1px solid #999;
   border-radius: 4px;
+}
+
+.invalid {
+  color: #f03c3c;
+  background-color: rgb(255, 223, 223);
+  margin: 6px 0;
+  padding: 4px 0;
+  font-size: 12px;
+}
+
+.valid {
+  color: #2fb16a;
+  background-color: rgb(222, 241, 224);
+  margin: 6px 0;
+  padding: 4px 0;
+  font-size: 12px;
 }

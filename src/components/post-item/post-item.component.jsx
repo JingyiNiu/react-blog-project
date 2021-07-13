@@ -12,7 +12,9 @@ const PostItem = () => {
   }, []);
 
   const fetchPost = async () => {
-    const data = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
+    const data = await fetch(
+      `https://jsonplaceholder.typicode.com/posts/${id}`
+    );
     const post = await data.json();
     setPost(post);
   };

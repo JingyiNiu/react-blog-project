@@ -1,9 +1,15 @@
+:root {
+  --primary-color: #c6b4ce;
+  --secondary-color: #79639b;
+}
+
 .navbar {
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: salmon;
+  background-color: var(--primary-color);
   margin-bottom: 20px;
+  border-bottom: 5px solid var(--secondary-color);
 }
 
 .nav-item {

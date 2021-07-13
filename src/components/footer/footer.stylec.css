@@ -6,5 +6,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #eee;
+  background-color: #f4f4f4;
+  border-top: 6px solid #fff;
 }
