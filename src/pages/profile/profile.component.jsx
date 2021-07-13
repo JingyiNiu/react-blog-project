@@ -6,7 +6,7 @@ import "./profile.styles.css";
 const Profile = () => {
   return (
     <div className='profile'>
-      profile
+      <h2>Profile</h2>
       <Form />
     </div>
   );
