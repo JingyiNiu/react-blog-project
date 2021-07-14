@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-import "./footer.stylec.css"
+import "./footer.stylec.css";
 
 const Footer = () => {
-    return (
-        <div className="footer">
-            Copyright &copy; Zoey
-        </div>
-    )
-}
+  return (
+    <div className='footer'>
+      Copyright &copy; {new Date().getFullYear()} Zoey
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;
