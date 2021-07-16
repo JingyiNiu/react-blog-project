@@ -12,7 +12,8 @@ const Form = () => {
   } = useForm();
 
   const onSubmit = (data) => {
-    alert(JSON.stringify(data));
+    console.log(data);
+    console.log("getFullYear: " + (new Date().getFullYear() - 100));
   };
 
   console.log(watch("example"));
@@ -27,7 +28,6 @@ const Form = () => {
           <input
             className='input'
             placeholder='Your First Name'
-            required
             {...register("firstName", {
               required: true,
               maxLength: 20,
@@ -49,7 +49,6 @@ const Form = () => {
           <input
             className='input'
             placeholder='Your Last Name'
-            required
             {...register("lastName", {
               required: true,
               maxLength: 20,
@@ -72,7 +71,6 @@ const Form = () => {
             className='input'
             type='text'
             placeholder='xxx@xxx.xxx'
-            required
             {...register("email", {
               required: true,
               pattern:
@@ -92,7 +90,6 @@ const Form = () => {
             className='input'
             type='tel'
             placeholder='021 12345'
-            required
             {...register("phoneNum", {
               required: true,
               minLength: 6,
@@ -117,15 +114,27 @@ const Form = () => {
           <div className='label'>Date of Birth</div>
           <input
             className='input'
-            type='text'
-            placeholder='1999-12-31'
-            required
+            type='date'
             {...register("dob", {
               required: true,
+              validate: {
+                minYear: (value) =>
+                  parseInt(value.substring(0, 4)) >
+                  new Date().getFullYear() - 100,
+                maxYear: (value) =>
+                  parseInt(value.substring(0, 4)) <
+                  new Date().getFullYear() - 10,
+              },
             })}
           />
           {errors?.dob?.type === "required" && (
             <p className='message'>This field is required</p>
+          )}
+          {errors?.dob?.type === "minYear" && (
+            <p className='message'>100年以前</p>
+          )}
+          {errors?.dob?.type === "maxYear" && (
+            <p className='message'>年龄太小</p>
           )}
 
           {/* Comments */}
@@ -134,6 +143,7 @@ const Form = () => {
             className='input textarea'
             rows='6'
             placeholder='Please enter your comments here...'
+            {...register("comments")}
           />
 
           <input className='button' type='submit' />
