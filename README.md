@@ -9,6 +9,10 @@ https://create-react-app.dev/docs/getting-started
 https://reactrouter.com/core/guides/quick-start   
 ```npm i react-router-dom```
 
+## React Hook Form   
+https://react-hook-form.com/   
+```npm install react-hook-form```
+
 ## Screenshots
 home page   
 <img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/home.png" width=600>   
