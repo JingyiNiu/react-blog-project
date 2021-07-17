@@ -131,10 +131,12 @@ const Form = () => {
             <p className='message'>This field is required</p>
           )}
           {errors?.dob?.type === "minYear" && (
-            <p className='message'>100年以前</p>
+            <p className='message'>The year you enter is too small</p>
           )}
           {errors?.dob?.type === "maxYear" && (
-            <p className='message'>年龄太小</p>
+            <p className='message'>
+              Sorry you are too young to register our app
+            </p>
           )}
 
           {/* Comments */}
