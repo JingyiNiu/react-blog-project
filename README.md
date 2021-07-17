@@ -14,8 +14,11 @@ https://react-hook-form.com/
 ```npm install react-hook-form```
 
 ## Screenshots
-home page   
+Home page   
 <img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/homepage.png" width=600>   
 
-all posts and one post   
+All posts from API and one post   
 <img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/posts.png" width=400 align="top"> <img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/post.png" width=400 align="top">   
+
+Form and its validation
+<img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/form-required.png" width=400 align="top"> <img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/form-validation.pnge" width=400 align="top">   
