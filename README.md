@@ -16,3 +16,6 @@ https://react-hook-form.com/
 ## Screenshots
 home page   
 <img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/homepage.png" width=600>   
+
+all posts and one post   
+<img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/posts.png" width=300><img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/post.png" width=300>   
