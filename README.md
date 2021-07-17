@@ -20,5 +20,5 @@ Home page
 All posts from API and one post   
 <img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/posts.png" width=400 align="top"> <img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/post.png" width=400 align="top">   
 
-Form and its validation
-<img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/form-required.png" width=400 align="top"> <img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/form-validation.pnge" width=400 align="top">   
+Form and its validation   
+<img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/form-required.png" width=400 align="top"> <img src="https://github.com/JingyiNiu/react-blog-project/blob/master/public/screenshots/form-validation.png" width=400 align="top">   
